@@ -54,7 +54,7 @@
   --secondary: #F0F0F0;
   --secondary-foreground: #1A2B4C;
   --muted: #F0F0F0;
-  --muted-foreground: #1A2B4C;
+  --muted-foreground: #5A6B8C;
   --accent: #00A86B;
   --accent-foreground: #FFFFFF;
   --destructive: #FF0000; /* Placeholder, adjust if specific red is provided */
@@ -119,4 +119,18 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
