@@ -15,8 +15,12 @@ export default {
         foreground: "var(--color-foreground)",
         card: "var(--color-card)",
         'card-foreground': "var(--color-card-foreground)",
-      },
+      }
     },
+    screens: {
+      'max-md900': { max: '900px' },
+    }    
   },
   plugins: [],
 };
+

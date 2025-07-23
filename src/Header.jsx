@@ -1,17 +1,27 @@
 import { useState, useEffect } from 'react';
 import logo from './assets/logo.png';
+import { useTranslation } from 'react-i18next';
 
 function Header({ activeSection }) {
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [isManualScroll, setIsManualScroll] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const { t } = useTranslation();
+
+  const links = [
+    { href: '#overview', label: t('header.overview') },
+    { href: '#features', label: t('header.features') },
+    { href: '#benefits', label: t('header.benefits') },
+    { href: '#demo', label: t('header.demo') },
+    { href: '#contact', label: t('header.contact') },
+  ];
 
   useEffect(() => {
     const setManual = () => setIsManualScroll(true);
-
     window.addEventListener('wheel', setManual, { passive: true });
     window.addEventListener('touchstart', setManual, { passive: true });
-
     return () => {
       window.removeEventListener('wheel', setManual);
       window.removeEventListener('touchstart', setManual);
@@ -20,41 +30,29 @@ function Header({ activeSection }) {
 
   useEffect(() => {
     const handleMenuClick = () => {
-      setIsManualScroll(false); // Evita esconder o menu após clique
+      setIsManualScroll(false);
+      setMenuOpen(false);
     };
-
     const menuLinks = document.querySelectorAll('a[href^="#"]');
     menuLinks.forEach((link) => link.addEventListener('click', handleMenuClick));
-
     return () => {
       menuLinks.forEach((link) => link.removeEventListener('click', handleMenuClick));
     };
   }, []);
-  
+
   useEffect(() => {
     const handleScroll = () => {
       const currentY = window.scrollY;
-
       if (isManualScroll && currentY > lastScrollY && currentY > 100) {
-        setShowHeader(false); // rolando pra baixo
+        setShowHeader(false);
       } else {
-        setShowHeader(true); // rolando pra cima ou clicou no menu
+        setShowHeader(true);
       }
-
       setLastScrollY(currentY);
     };
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScrollY, isManualScroll]);
-
-  const links = [
-    { href: '#overview', label: 'Visão Geral' },
-    { href: '#features', label: 'Funcionalidades' },
-    { href: '#benefits', label: 'Benefícios' },
-    { href: '#demo', label: 'Demonstração' },
-    { href: '#contact', label: 'Contato' },
-  ];
 
   return (
     <header className={`fixed top-0 left-0 w-full z-50 bg-white shadow-md transition-transform duration-300 ${
@@ -62,19 +60,17 @@ function Header({ activeSection }) {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-        
           {/* Logo */}
           <div className="flex items-center flex-shrink-0">
             <a href="#overview" aria-label="Ir para o início">
-              <img src={logo} alt="Logo 360 Stock" className="h-16 w-auto" />
+              <img src={logo} alt="Logo 360 Stock" className="h-14 sm:h-16 md:h-18 w-auto" />
             </a>
           </div>
 
-          {/* Menu */}
-          <nav className="hidden md:flex items-center space-x-8">
+          {/* Menu Desktop */}
+          <nav className="hidden lg:flex items-center space-x-8">
             {links.map((item) => {
               const isActive = item.href === activeSection;
-              
               return (
                 <a
                   key={item.href}
@@ -91,20 +87,66 @@ function Header({ activeSection }) {
             })}
           </nav>
 
-          {/* Botão */}
-          <div className="hidden md:flex">
+          {/* CTA Desktop */}
+          <div className="hidden lg:flex items-center gap-4">
             <a
               href="#contact"
-              className="bg-primary text-white text-sm font-medium px-6 py-3 rounded-lg hover:shadow-lg hover:scale-105 transform transition-all duration-300 ease-in-out"
+              className="bg-primary text-white text-xs sm:text-sm font-medium px-6 py-3 rounded-lg hover:shadow-lg hover:scale-105 transform transition-all duration-300 ease-in-out"
             >
-              Solicitar Demo
+              {t('header.cta')}
             </a>
+          </div>
+
+          {/* Botão Menu Mobile */}
+          <div className="lg:hidden">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="text-primary focus:outline-none"
+              aria-label="Abrir menu"
+            >
+              <svg
+                className="w-5 h-5 sm:w-6 sm:h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
-    </header>
 
+      {/* Menu Mobile Dropdown */}
+      {menuOpen && (
+        <div className="lg:hidden bg-white shadow-lg border-t border-gray-100 absolute top-full left-0 w-full z-40">
+          <nav className="flex flex-col px-6 py-4 space-y-3">
+            {links.map((item) => (
+              <a
+                key={item.href}
+                href={item.href}
+                className="text-sm sm:text-base text-foreground font-medium hover:text-primary transition"
+              >
+                {item.label}
+              </a>
+            ))}
+            <a
+              href="#contact"
+              className="bg-primary text-white text-sm sm:text-base font-medium px-4 py-2 rounded-lg text-center hover:shadow-md transition"
+            >
+              {t('header.cta')}
+            </a>
+          </nav>
+        </div>
+      )}
+    </header>
   );
 }
 
 export default Header;
+

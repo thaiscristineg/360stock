@@ -1,0 +1,173 @@
+{
+  "header": {
+    "overview": "Overview",
+    "features": "Features",
+    "benefits": "Benefits",
+    "demo": "Demo",
+    "contact": "Contact",
+    "cta": "Request Demo"
+  },
+
+  "overview": {
+    "badge": "White-Label Solution",
+    "title": "Optimize Your Inventory, <1>Boost</1> Your Results",
+    "subtitle": "Take full control of your inventory with a modern white-label solution. Visualize your entire stock with cutting-edge technology and management indicators that drive results.",
+    "start": "Start Now",
+    "watch": "Watch Demo",
+    "span": "+ Efficiency"
+  },
+
+  "features": {
+    "title": "Essential Features for Flawless Management",
+    "subtitle": "Our system brings together robust features to optimize every stage of inventory management.",
+    "items": [
+      {
+        "title": "Real-Time Control",
+        "description": "Monitor your inventory in real time with accurate records of items, movements, and updated locations."
+      },
+      {
+        "title": "Inbound and Outbound Management",
+        "description": "Register movements with full traceability and complete history of entries and exits."
+      },
+      {
+        "title": "Space Optimization",
+        "description": "Organize your warehouse smartly, making it easier to quickly find products."
+      },
+      {
+        "title": "Smart Alerts",
+        "description": "Receive automatic notifications about minimum stock levels, product expiration, and critical conditions."
+      },
+      {
+        "title": "Custom Reports",
+        "description": "Generate complete reports on performance, product turnover, costs, and more—tailored to your business."
+      },
+      {
+        "title": "Flexible Integration",
+        "description": "Connect your inventory with ERP or CRM systems through seamless and continuous integration."
+      }
+    ]
+  },
+
+  "benefits": {
+    "title": "Turn Your Inventory Management into a Competitive Advantage",
+    "subtitle": "By implementing our system, your company will gain tangible benefits that will boost your results.",
+    "items": [
+      {
+        "title": "Reduction in Operational Costs",
+        "description": "Reduce losses due to obsolescence, misplacement, and overstock. Use your space better and lower immobilized working capital."
+      },
+      {
+        "title": "Increased Efficiency",
+        "description": "Automate manual processes, minimize errors, and optimize operational flow."
+      },
+      {
+        "title": "More Strategic Decisions",
+        "description": "Access accurate data and real-time indicators for faster, smarter decisions."
+      },
+      {
+        "title": "Improved Service Quality",
+        "description": "Ensure product availability, prevent stockouts, and increase customer satisfaction with timely deliveries."
+      }
+    ],
+    "applicationTitle": "Where Our System Makes the Difference",
+    "applicationSubtitle": "Effectively serves various industries and business types.",
+    "applicationItems": [
+      "Retail", "Industry", "Logistics", "Services", "Food", "Healthcare"
+    ],
+    "whiteLabelTitle": "Your Brand, Your Solution: White-Label Advantages",
+    "whiteLabelSubtitle": "Fully customize the system with your company's identity and strengthen your market presence.",
+    "whiteLabelItems": [
+      {
+        "title": "Boost Your Brand",
+        "description": "Deliver a robust solution with your identity, increasing recognition and credibility."
+      },
+      {
+        "title": "Cost Savings",
+        "description": "Avoid high costs and long development times. Get a ready-to-use product quickly."
+      },
+      {
+        "title": "Focus on Core Business",
+        "description": "Concentrate your efforts on core activities while we handle the tech and maintenance."
+      },
+      {
+        "title": "Total Flexibility",
+        "description": "Adapt the system’s look and features to your company’s specific needs."
+      }
+    ]
+  },
+
+  "demo": {
+    "title": "See It in Action",
+    "subtitle": "Watch the full demo and discover how our solution can transform your inventory management.",
+    "labels": [
+      "Intuitive Interface",
+      "Advanced Indicators",
+      "Real Results"
+    ]
+  },
+
+  "contact": {
+    "title": "Ready to Optimize Your Inventory?",
+    "subtitle": "Schedule a personalized demo and see how we can help your company gain more control and results.",
+    "form": {
+      "title": "Get in Touch",
+      "description": "Fill out the form and our team will get back to you soon.",
+      "fields": {
+        "name": "Full Name",
+        "email": "Email",
+        "company": "Company",
+        "phone": "Phone",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Your full name",
+        "email": "youremail@mail.com",
+        "company": "Your company name",
+        "phone": "+Country code (Area code) Number",
+        "message": "Tell us about your inventory control needs..."
+      },
+      "submit": "Request Demo"
+    },
+    "success": {
+      "title": "Message sent successfully!",
+      "description": "We will contact you soon by email or WhatsApp. Thank you for your interest!"
+    },
+    "alternatives": {
+      "title": "Other Contact Options",
+      "items": [
+        { "label": "Phone", "value": "(00) 0000-0000" },
+        { "label": "Email", "value": "email@360stock.com" }
+      ]
+    },
+    "reasons": {
+      "title": "Why Choose Our Solution?",
+      "items": [
+        "Fast implementation in up to 30 days",
+        "24/7 expert technical support",
+        "Complete team training",
+        "90-day satisfaction guarantee",
+        "Proven ROI in less than 6 months"
+      ]
+    }
+  },
+
+  "footer": {
+    "description": "Your brand, your inventory system.",
+    "navigation": {
+      "title": "Navigation",
+      "items": {
+        "overview": "Overview",
+        "features": "Features",
+        "benefits": "Benefits",
+        "demo": "Demo",
+        "contact": "Contact"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "email@360stock.com",
+      "phone": "(00) 0000-0000"
+    },
+    "copyright": "© 2024 360 Stock. All rights reserved."
+  }
+}

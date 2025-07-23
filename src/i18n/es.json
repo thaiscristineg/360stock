@@ -1,0 +1,173 @@
+{
+  "header": {
+    "overview": "Resumen",
+    "features": "Funcionalidades",
+    "benefits": "Beneficios",
+    "demo": "Demostración",
+    "contact": "Contacto",
+    "cta": "Solicitar Demostración"
+  },
+
+  "overview": {
+    "badge": "Solución White-Label",
+    "title": "Optimiza tu Inventario, <1>Potencia</1> tus Resultados",
+    "subtitle": "Ten control total de tu inventario con una solución white-label moderna. Visualiza todo el inventario con tecnología avanzada e indicadores de gestión que impulsan resultados.",
+    "start": "Comenzar Ahora",
+    "watch": "Ver Demostración",
+    "span": "+ Eficiencia"
+  },
+
+  "features": {
+    "title": "Funcionalidades Esenciales para una Gestión Impecable",
+    "subtitle": "Nuestro sistema reúne funcionalidades sólidas para optimizar cada etapa de la gestión de inventario.",
+    "items": [
+      {
+        "title": "Control en Tiempo Real",
+        "description": "Supervisa tu inventario en tiempo real con registros precisos de artículos, movimientos y ubicaciones actualizadas."
+      },
+      {
+        "title": "Gestión de Entradas y Salidas",
+        "description": "Registra movimientos con trazabilidad total y un historial completo de entradas y salidas."
+      },
+      {
+        "title": "Optimización de Espacio",
+        "description": "Organiza tu almacén de forma inteligente para facilitar la ubicación rápida de los productos."
+      },
+      {
+        "title": "Alertas Inteligentes",
+        "description": "Recibe notificaciones automáticas sobre stock mínimo, vencimiento de productos y condiciones críticas."
+      },
+      {
+        "title": "Informes Personalizables",
+        "description": "Genera informes completos sobre rendimiento, rotación de productos, costos y más, adaptados a tu negocio."
+      },
+      {
+        "title": "Integración Flexible",
+        "description": "Conecta tu inventario con sistemas ERP o CRM con integración fluida y sincronización continua."
+      }
+    ]
+  },
+
+  "benefits": {
+    "title": "Transforma la Gestión de tu Inventario en una Ventaja Competitiva",
+    "subtitle": "Al implementar nuestro sistema, tu empresa obtendrá beneficios concretos que impulsarán sus resultados.",
+    "items": [
+      {
+        "title": "Reducción de Costos Operativos",
+        "description": "Reduce pérdidas por obsolescencia, extravíos y exceso de inventario. Aprovecha mejor tus espacios y reduce el capital inmovilizado."
+      },
+      {
+        "title": "Aumento de la Eficiencia",
+        "description": "Automatiza procesos manuales, minimiza errores y optimiza el flujo operativo."
+      },
+      {
+        "title": "Decisiones Más Estratégicas",
+        "description": "Accede a datos precisos e indicadores en tiempo real para tomar decisiones rápidas y acertadas."
+      },
+      {
+        "title": "Mejora en la Calidad del Servicio",
+        "description": "Garantiza la disponibilidad de productos, evita quiebres de stock y aumenta la satisfacción del cliente con entregas puntuales."
+      }
+    ],
+    "applicationTitle": "Dónde Nuestro Sistema Marca la Diferencia",
+    "applicationSubtitle": "Atiende con excelencia a diversos sectores y tipos de negocios.",
+    "applicationItems": [
+      "Retail", "Industria", "Logística", "Servicios", "Alimentos", "Salud"
+    ],
+    "whiteLabelTitle": "Tu Marca, Tu Solución: Ventajas del Modelo White-Label",
+    "whiteLabelSubtitle": "Personaliza completamente el sistema con la identidad de tu empresa y fortalece tu presencia en el mercado.",
+    "whiteLabelItems": [
+      {
+        "title": "Impulsa tu Marca",
+        "description": "Presenta una solución robusta con tu identidad, aumentando el reconocimiento y la credibilidad."
+      },
+      {
+        "title": "Ahorro de Recursos",
+        "description": "Evita altos costos y largos plazos de desarrollo. Obtén un producto listo rápidamente."
+      },
+      {
+        "title": "Enfoque en el Core Business",
+        "description": "Concentra esfuerzos en tus actividades principales mientras nosotros nos encargamos de la tecnología y el mantenimiento."
+      },
+      {
+        "title": "Flexibilidad Total",
+        "description": "Adapta la apariencia y funcionalidades del sistema según las necesidades de tu empresa."
+      }
+    ]
+  },
+
+  "demo": {
+    "title": "Vea Cómo Funciona en la Práctica",
+    "subtitle": "Mira la demostración completa y descubre cómo nuestra solución puede transformar la gestión de tu inventario.",
+    "labels": [
+      "Interfaz Intuitiva",
+      "Indicadores Avanzados",
+      "Resultados Reales"
+    ]
+  },
+
+  "contact": {
+    "title": "¿Listo para Optimizar tu Inventario?",
+    "subtitle": "Agenda una demostración personalizada y descubre cómo podemos ayudarte a tener más control y resultados.",
+    "form": {
+      "title": "Contáctanos",
+      "description": "Completa el formulario y nuestro equipo te responderá pronto.",
+      "fields": {
+        "name": "Nombre Completo",
+        "email": "Correo Electrónico",
+        "company": "Empresa",
+        "phone": "Teléfono",
+        "message": "Mensaje"
+      },
+      "placeholders": {
+        "name": "Tu nombre completo",
+        "email": "tucorreo@mail.com",
+        "company": "Nombre de tu empresa",
+        "phone": "+Código de país (Código de área) Número",
+        "message": "Cuéntanos sobre tus necesidades de control de inventario..."
+      },
+      "submit": "Solicitar Demostración"
+    },
+    "success": {
+      "title": "¡Mensaje enviado con éxito!",
+      "description": "Nos pondremos en contacto contigo pronto por correo o WhatsApp. ¡Gracias por tu interés!"
+    },
+    "alternatives": {
+      "title": "Otras Formas de Contacto",
+      "items": [
+        { "label": "Teléfono", "value": "(00) 0000-0000" },
+        { "label": "Correo", "value": "email@360stock.com" }
+      ]
+    },
+    "reasons": {
+      "title": "¿Por qué elegir nuestra solución?",
+      "items": [
+        "Implementación rápida en hasta 30 días",
+        "Soporte técnico especializado 24/7",
+        "Capacitación completa del equipo",
+        "Garantía de satisfacción de 90 días",
+        "ROI comprobado en menos de 6 meses"
+      ]
+    }
+  },
+
+  "footer": {
+    "description": "Tu marca, tu sistema de inventario.",
+    "navigation": {
+      "title": "Navegación",
+      "items": {
+        "overview": "Resumen",
+        "features": "Funcionalidades",
+        "benefits": "Beneficios",
+        "demo": "Demostración",
+        "contact": "Contacto"
+      }
+    },
+    "contact": {
+      "title": "Contacto",
+      "email": "email@360stock.com",
+      "phone": "(00) 0000-0000"
+    },
+    "copyright": "© 2024 360 Stock. Todos los derechos reservados."
+  }
+}

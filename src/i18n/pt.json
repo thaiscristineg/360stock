@@ -1,0 +1,173 @@
+{
+  "header": {
+    "overview": "Visão Geral",
+    "features": "Funcionalidades",
+    "benefits": "Benefícios",
+    "demo": "Demonstração",
+    "contact": "Contato",
+    "cta": "Solicitar Demo"
+  },
+
+  "overview": {
+    "badge": "Solução White-Label",
+    "title": "Otimize seu Inventário, <1>Potencialize</1> seus Resultados",
+    "subtitle": "Tenha controle total do seu estoque com uma solução white-label moderna. Visualize todo o inventário com tecnologia de ponta e indicadores de gestão que impulsionam resultados.",
+    "start": "Começar Agora",
+    "watch": "Assistir Demonstração",
+    "span": "+ Eficiência"
+  },
+
+  "features": {
+    "title": "Funcionalidades Essenciais para uma Gestão Impecável",
+    "subtitle": "Nosso sistema reúne funcionalidades robustas para otimizar todas as etapas da gestão de estoque.",
+    "items": [
+      {
+        "title": "Controle em Tempo Real",
+        "description": "Acompanhe seu estoque em tempo real com registros precisos de itens, movimentações e localizações atualizadas automaticamente."
+      },
+      {
+        "title": "Gestão de Entradas e Saídas",
+        "description": "Registre movimentações com rastreabilidade total e histórico completo de entradas e saídas."
+      },
+      {
+        "title": "Otimização de Espaço",
+        "description": "Organize seu armazém de forma inteligente, facilitando a localização rápida dos produtos."
+      },
+      {
+        "title": "Alertas Inteligentes",
+        "description": "Receba notificações automáticas sobre estoque mínimo, validade de produtos e condições críticas."
+      },
+      {
+        "title": "Relatórios Personalizáveis",
+        "description": "Crie relatórios completos sobre desempenho, giro de produtos, custos e outros dados, sob medida para o seu negócio."
+      },
+      {
+        "title": "Integração Flexível",
+        "description": "Conecte seu estoque a sistemas ERP ou CRM com integração fluida e sincronização contínua."
+      }
+    ]
+  },
+
+  "benefits": {
+    "title": "Transforme sua Gestão de Estoque em Vantagem Competitiva",
+    "subtitle": "Ao implementar nosso sistema, sua empresa alcançará benefícios concretos que impulsionarão seus resultados.",
+    "items": [
+      {
+        "title": "Redução de Custos Operacionais",
+        "description": "Reduza perdas por obsolescência, extravios e excesso de estoque. Utilize melhor seus espaços e reduza o capital de giro imobilizado."
+      },
+      {
+        "title": "Aumento da Eficiência",
+        "description": "Automatize processos manuais, minimize erros e otimize o fluxo operacional."
+      },
+      {
+        "title": "Decisões Mais Estratégicas",
+        "description": "Acesse dados precisos e indicadores em tempo real para decisões mais rápidas e assertivas."
+      },
+      {
+        "title": "Melhoria na Qualidade do Serviço",
+        "description": "Garanta a disponibilidade de produtos, evite rupturas e aumente a satisfação do cliente com entregas pontuais."
+      }
+    ],
+    "applicationTitle": "Onde Nosso Sistema Faz a Diferença",
+    "applicationSubtitle": "Atende com excelência diversos setores e tipos de negócios.",
+    "applicationItems": [
+      "Varejo", "Indústria", "Logística", "Serviços", "Alimentos", "Saúde"
+    ],
+    "whiteLabelTitle": "Sua Marca, Sua Solução: Vantagens do Modelo White-Label",
+    "whiteLabelSubtitle": "Personalize totalmente o sistema com a identidade da sua empresa e fortaleça sua presença no mercado.",
+    "whiteLabelItems": [
+      {
+        "title": "Impulsione sua Marca",
+        "description": "Apresente uma solução robusta com sua identidade, ampliando o reconhecimento e a credibilidade."
+      },
+      {
+        "title": "Economia de Recursos",
+        "description": "Evite custos elevados e longos prazos de desenvolvimento. Tenha um produto pronto rapidamente."
+      },
+      {
+        "title": "Foco no Core Business",
+        "description": "Concentre esforços nas atividades principais enquanto cuidamos da tecnologia e manutenção."
+      },
+      {
+        "title": "Flexibilidade Total",
+        "description": "Adapte a aparência e os recursos do sistema conforme as necessidades da sua empresa."
+      }
+    ]
+  },
+
+  "demo": {
+    "title": "Entenda Como Funciona na Prática",
+    "subtitle": "Assista à demonstração completa e descubra como nossa solução pode transformar sua gestão de estoque.",
+    "labels": [
+      "Interface Intuitiva",
+      "Indicadores Avançados",
+      "Resultados Reais"
+    ]
+  },
+
+  "contact": {
+    "title": "Pronto para Otimizar seu Estoque?",
+    "subtitle": "Agende uma demonstração personalizada e veja como podemos ajudar sua empresa a ter mais controle e resultado com o estoque.",
+    "form": {
+      "title": "Entre em Contato",
+      "description": "Preencha o formulário e nossa equipe retornará em breve.",
+      "fields": {
+        "name": "Nome Completo",
+        "email": "E-mail",
+        "company": "Empresa",
+        "phone": "Telefone",
+        "message": "Mensagem"
+      },
+      "placeholders": {
+        "name": "Seu nome completo",
+        "email": "seuemail@mail.com",
+        "company": "Nome da sua empresa",
+        "phone": "+Código do país (DDD) Número",
+        "message": "Conte-nos sobre suas necessidades de controle de estoque..."
+      },     
+      "submit": "Solicitar Demonstração"
+    },
+    "success": {
+      "title": "Mensagem enviada com sucesso!",
+      "description": "Em breve entraremos em contato por e-mail ou WhatsApp. Obrigado pelo seu interesse!"
+    },
+    "alternatives": {
+      "title": "Outras Formas de Contato",
+      "items": [
+        { "label": "Telefone", "value": "(00) 0000-0000" },
+        { "label": "E-mail", "value": "email@360stock.com" }
+      ]
+    },
+    "reasons": {
+      "title": "Por que escolher nossa solução?",
+      "items": [
+        "Implementação rápida em até 30 dias",
+        "Suporte técnico especializado 24/7",
+        "Treinamento completo da equipe",
+        "Garantia de satisfação de 90 dias",
+        "ROI comprovado em menos de 6 meses"
+      ]
+    }
+  },
+
+  "footer": {
+    "description": "Sua marca, seu sistema de estoque.",
+    "navigation": {
+      "title": "Navegação",
+      "items": {
+        "overview": "Visão Geral",
+        "features": "Funcionalidades",
+        "benefits": "Benefícios",
+        "demo": "Demonstração",
+        "contact": "Contato"
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "email": "email@360stock.com",
+      "phone": "(00) 0000-0000"
+    },
+    "copyright": "© 2024 360 Stock. Todos os direitos reservados."
+  }
+}
